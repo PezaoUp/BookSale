@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-bar {
+    background-color: #393939;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #e3ad2a;
+    padding: 30px 50px;
+    font-size: 20px;
+}
+
+.nav-bar a:hover {
+    transform: translateY(-4px);
+    transition: all 0.2s ease-out;
+}
+
+.title {
+    margin: auto;
+    max-width: 600px;
+    padding: 50px;
+
+}
+
+.titulo {
+    width: 600px;
+    min-width: 600px;
+}
+
+.book-cover {
+    width: 350px;
+    padding: 0 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    max-width: 500px;
+    padding: 100px;
+}
+
+.order {
+    max-width: 300px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #e3ad2a;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.order:hover {
+    background-color: #df9c00; 
+}
+
+.offer {
+    background-color: #df9c00;
+    padding: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.offer-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: #393939;
+    color: #df9c00;
+    cursor: pointer;
+}
+
+.offer-btn:hover {
+    background-color: #1b1b1b;
+}
+
+.footer {
+    background-color: #1b1b1b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+
+ion-icon {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.end {
+    color: #707070;
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+@media(max-width: 900px) {
+
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 700px) {
+
+    .titulo {
+        display: none;
+    }
+
+}
